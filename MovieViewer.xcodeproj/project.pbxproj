@@ -58,9 +58,11 @@
 		31782D352519F21400D77CA8 /* MovieViewer */ = {
 			isa = PBXGroup;
 			children = (
+				31782D522519F3B200D77CA8 /* Presenter */,
+				31782D4E2519F39F00D77CA8 /* View */,
+				31782D512519F3AB00D77CA8 /* Model */,
 				31782D362519F21400D77CA8 /* AppDelegate.swift */,
 				31782D382519F21400D77CA8 /* SceneDelegate.swift */,
-				31782D3A2519F21400D77CA8 /* ViewController.swift */,
 				31782D3C2519F21400D77CA8 /* Main.storyboard */,
 				31782D422519F21700D77CA8 /* Assets.xcassets */,
 				31782D442519F21700D77CA8 /* LaunchScreen.storyboard */,
@@ -68,6 +70,28 @@
 				31782D3F2519F21400D77CA8 /* MovieViewer.xcdatamodeld */,
 			);
 			path = MovieViewer;
+			sourceTree = "<group>";
+		};
+		31782D4E2519F39F00D77CA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31782D3A2519F21400D77CA8 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31782D512519F3AB00D77CA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31782D522519F3B200D77CA8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
